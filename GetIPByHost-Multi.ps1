@@ -6,8 +6,6 @@ $input = ".\input.txt"
 $output = ".\$(get-date -f yyyy-MM-dd)-HostIPResolve.csv"
 $PingArray = @()
 
-# Thom will be severely disappointed if I don't put functions here and reference them in my loops
-
 
 # Start timer
 $scriptStartTime = $(get-date)
